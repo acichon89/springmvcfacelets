@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+ 
+    <h:head>
+		<link rel="stylesheet" href="/templates/style.css" />
+		<title><ui:insert name="title" >Default title</ui:insert></title>
+    </h:head>
+ 
+    <h:body>
+		<header> 
+			<hgroup> 
+				<h1>Spring MVC &amp; Facelets integration</h1> 
+				<h2>A simple demo website</h2> 
+			</hgroup> 
+			<!-- <nav> 
+				<ul> 
+					<li><a href="#">Home</a></li> 
+					<li><a href="#">Example 1</a></li> 
+					<li><a href="#">Example 2</a></li> 
+					<li><a href="#">Example 3</a></li> 
+				</ul> 
+			</nav> --> 
+		</header>
+
+		<article>
+			<ui:insert name="content"/>
+		</article>
+		
+		<ui:insert name="sidebar">
+			<section>
+				<h1>Teams:</h1>
+			    <ul>
+			        <li><a href="/football/barcelona">FC Barcelona</a></li>
+			        <li><a href="/football/juventus">Juventus </a></li>
+			        <li><a href="/football/manutd">Manchester United</a></li>
+			    </ul>
+			</section>
+		</ui:insert>
+		<ui:insert name="footer">
+			<footer>
+				<p>&copy; 2010 Ampersand Solutions - design by <a href="http://www.webdezign.co.uk" title="web design london">Webdezign</a></p>
+			</footer>
+		</ui:insert>
+</h:body>
+</html>

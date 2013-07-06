@@ -1,0 +1,7 @@
+/bin
+/target
+/src/main/java/webapp/tmp
+.classpath
+.project
+.settings
+restfinder.log
