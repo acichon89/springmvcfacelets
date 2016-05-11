@@ -22,11 +22,6 @@ import org.springframework.util.Assert;
 import org.springframework.web.servlet.support.RequestContextUtils;
 import org.springframework.web.servlet.view.AbstractUrlBasedView;
 
-/**
- * 
- * @author Andrzej, by isaac.silva http://forum.springsource.org/showthread.php?27213-how-to-configure-spring-MVC-view-resolver-for-facelets&p=298821#post298821
- *
- */
 public class FaceletView extends AbstractUrlBasedView {
 
 	private Lifecycle facesLifecycle;
