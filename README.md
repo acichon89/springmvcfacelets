@@ -1,6 +1,5 @@
 Spring MVC & Facelets
 ================
-<img src="http://i.minus.com/jbxQBkUAgkwuvo.png" /><br/>
 Sample web application with Spring MVC (Controller layer) and Facelets (View layer)
 
 <h2>About</h2>
@@ -20,5 +19,4 @@ Just download the project and then run the command as: <br/>
 a)<i>mvn tomcat7:run</i> (Tomcat 7 servlet container), or  <br/>
 b)<i>mvn jetty:run </i>(Jetty servlet container)
 <h2>Credits</h2>
-Isaac Silva (FaceletViewResolver)<br/>
 http://www.webdezign.co.uk/ (HTML5 page layout used as example) 
